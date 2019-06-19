@@ -1,0 +1,21 @@
+h1{
+  display:flex;
+  font-family: 'Dosis', sans-serif;
+  font-size: 500%;
+  text-shadow: 5px 5px #F5B7B1;
+  text-decoration-line: overline underline;
+  text-decoration-style: dotted;
+  justify-content: center;
+}
+img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+@media screen and (max-width:640px){
+  img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+}
